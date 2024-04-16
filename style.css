@@ -1,0 +1,39 @@
+h1{
+    color: rgb(1, 57, 82);
+    box-shadow:2px 2px 5vh rgba(2, 2, 136, 0.548);
+}
+h2{
+    color: rgb(255, 255, 255);
+    font-size:medium;
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(192, 192, 192);
+}
+.taskbar ul{
+    list-style: none;
+    background: 663366;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
+.taskbar li{
+    display: inline-block;
+}
+.taskbar a{
+    text-decoration: none;
+    color: rgb(75, 74, 74);
+    display: block;
+    padding: 25px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+.taskbar a:hover{
+    background: rgb(216, 216, 216);
+    box-shadow: 2px 2px 4vh rgb(1, 57, 82);
+}
+.container{
+    display: inline-block;
+}
