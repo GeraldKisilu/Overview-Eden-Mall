@@ -1,6 +1,7 @@
 h1{
     color: rgb(1, 57, 82);
     box-shadow:2px 2px 5vh rgba(2, 2, 136, 0.548);
+    font-size: medium;
 }
 h2{
     color: rgb(255, 255, 255);
