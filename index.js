@@ -40,19 +40,19 @@ function displayInfo(infoType) {
 }
 
 // Add event listeners to buttons
-document.getElementById('history-btn').addEventListener('click', function() {
+document.getElementById('history-btn').addEventListener('click', function () {
     displayInfo('history');
 });
 
-document.getElementById('mission-btn').addEventListener('click', function() {
+document.getElementById('mission-btn').addEventListener('click', function () {
     displayInfo('mission');
 });
 
-document.getElementById('facilities-btn').addEventListener('click', function() {
+document.getElementById('facilities-btn').addEventListener('click', function () {
     displayInfo('facilities');
 });
 
-document.getElementById('community-btn').addEventListener('click', function() {
+document.getElementById('community-btn').addEventListener('click', function () {
     displayInfo('communityEngagement');
 });
- 
+
