@@ -72,26 +72,6 @@ document.getElementById("view-map-btn").addEventListener("click", function () {
     document.getElementById("kenyan-map").style.display = "block";
 });
 
-// Get the current URL path
-var path = window.location.pathname;
-
-// Extract the filename from the URL path
-var page = path.split("/").pop();
-
-// Get all the links in the taskbar
-var links = document.querySelectorAll(".taskbar a");
-
-// Loop through each link to check if it matches the current page
-links.forEach(function(link) {
-    // Get the href attribute of the link
-    var linkHref = link.getAttribute("href");
-    
-    // If the href attribute matches the current page, add the active class
-    if (linkHref === page) {
-        link.classList.add("active-link");
-    }
-});
-
 let slideIndex = 1;
 showSlides(slideIndex);
 

@@ -1,5 +1,5 @@
 h1 {
-    color: rgb(1, 57, 82);
+    color: darkblue;
     box-shadow: 2px 2px 5vh rgba(2, 2, 136, 0.548);
     font-size: medium;
 }
@@ -13,14 +13,6 @@ h2 {
 body {
     background-color: white;
     text-align: center;
-    /* Set background image */
-    /* background-image: url('backg..jpg'); */
-    /* Set background image to cover the entire viewport */
-    /* background-size: cover; */
-    /* Center the background image */
-    /* background-position: center; */
-    /* Fix the background image so it doesn't scroll with the content */
-    /* background-attachment: fixed; */
 }
 
 .taskbar ul {
@@ -37,7 +29,7 @@ body {
 
 .taskbar a {
     text-decoration: none;
-    color: rgb(75, 74, 74);
+    color: darkblue;
     display: block;
     padding: 25px 20px;
     font-size: 15px;
@@ -73,21 +65,16 @@ p {
     color: #000000;
 }
 
-/* Define a CSS class for active links */
 .active-link {
     text-decoration: underline;
 }
-
 h3 {
     color: darkblue;
-    margin-bottom: -30px;
-    margin-top: 10px;
 }
 
 h4 {
     color: darkblue;
 }
-
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
@@ -101,16 +88,8 @@ h4 {
 }
 
 button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
     cursor: pointer;
-    width: 100%;
-    font-size: 18px;
+    font-size: 13px;
 }
 
 a {
@@ -123,90 +102,105 @@ button:hover,
 a:hover {
     opacity: 0.7;
 }
-* {box-sizing:border-box}
+
+* {
+    box-sizing: border-box
+}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
 }
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+    display: none;
 }
 
 /* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
 }
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
 }
 
 /* The dots/bullets/indicators */
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
+.active,
+.dot:hover {
+    background-color: #717171;
 }
 
 /* Fading animation */
 .fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.title {
+    color: black;
 }
