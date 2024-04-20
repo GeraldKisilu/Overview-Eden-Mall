@@ -76,7 +76,7 @@ h4 {
     color: darkblue;
 }
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 darkblue;
     max-width: 300px;
     margin: auto;
     text-align: center;
@@ -203,4 +203,40 @@ a:hover {
 
 .title {
     color: black;
+}
+.header-container {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.container {
+    background-color: #f7f7f7; /* Background color */
+    border: 1px solid #ddd; /* Border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding */
+    margin-top: 20px; /* Margin from the top */
+    text-align:justify;
+}
+.container1 {
+    background-color: #f7f7f7; /* Background color */
+    border: 1px solid #ddd; /* Border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding */
+    margin-top: 20px; /* Margin from the top */
+    text-align:justify;
+    
+}
+.container2 {
+    background-color: #f7f7f7; /* Background color */
+    border: 1px solid #ddd; /* Border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding */
+    margin-top: 20px; /* Margin from the top */
+    text-align:justify;
+}
+.center-container {
+    text-align: center;
+    margin: 20px auto; /* Center the container horizontally */
+    max-width: 800px; /* Set maximum width for center-aligned content */
 }
