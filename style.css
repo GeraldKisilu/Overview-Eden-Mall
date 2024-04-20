@@ -4,12 +4,12 @@ h1{
     font-size: medium;
 }
 h2{
-    color: rgb(255, 255, 255);
+    color: darkblue;
     font-size:medium;
     font-family:'Times New Roman', Times, serif;
 }
 body{
-    background-color: rgb(192, 192, 192);
+    background-color: white;
     text-align: center;
 }
 .taskbar ul{
@@ -56,4 +56,11 @@ p{
     color: #000000;
 }
 
+/* Define a CSS class for active links */
+.active-link {
+    text-decoration: underline;
+}
 
+h3{
+    color: darkblue;
+}
