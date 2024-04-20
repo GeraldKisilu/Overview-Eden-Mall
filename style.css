@@ -43,5 +43,17 @@ body{
 p{
     display: inline-block;
 }
+.promotion {
+    margin-bottom: 20px;
+}
+
+.promotion h3 {
+    font-size: 1.2em;
+    color: #000000;
+}
+
+.promotion p {
+    color: #000000;
+}
 
 
